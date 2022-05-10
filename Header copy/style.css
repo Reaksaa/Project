@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Koulen&family=Moul&family=Odor+Mean+Chey&family=Open+Sans:ital,wght@1,600&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: #ffff;
+}
+.logo{
+    width: 85px;
+    height: 85px;
+    margin-left: 40px;
+}
+.menu{ 
+    /* float: right; */
+    font-size: 24px;
+    font-family: 'Koulen', cursive;
+    background-color: #eee;
+}

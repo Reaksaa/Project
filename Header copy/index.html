@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <!-- <link rel="stylesheet" href="style.css"> -->
+</head>
+
+<body>
+    <section class="md:flex md:items-center md:justify-between">
+        <div class="flex justify-between items-center">
+            <div>
+                <img class="h-20 pl-8" src="/img/1.jpg">
+            </div>
+            <div class="text-3xl cursor-pointer mx-3 md:hidden block">
+                <ion-icon name="menu" onclick="openModal()"></ion-icon>
+            </div>
+        </div>
+        <ul
+            class="md:flex md:items-center md:space-x-6 space-y-7 md:space-y-0 font-semibold mx-8 text-xl ">
+            <li><a href="#" class="text-orange-400">HOME</a></li>
+            <li><a href="#">TRAILER</a></li>
+            <li><a href="#">NEWFEED</a></li>
+            <li><a href="#">BTS</a></li>
+            <li><a href="#">ARTISTS</a></li>
+            <li><a href="#">SONGS</a></li>
+            <li><a href="#">ABOUT US</a></li>
+            <li><a href="#">CONTACT US</a></li>
+        </ul>
+    </section>
+
+    <div>
+        <img class="w-full" src="/img/2.jpg" alt="">
+    </div>
+
+    <script>
+        function openModal() {
+            document.getElementById("modal").removeAttribute("style")
+        }
+        function closeModal() {
+            document.getElementById("modal").style.display = "none";
+        }
+    </script>
+</body>
+
+</html>
